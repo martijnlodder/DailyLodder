@@ -1,0 +1,19 @@
+.headertitle h1 {
+  color: white;
+  background-color: #33ff77;
+  font-size: 55px;
+  font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav a {
+  color: #33ff77;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 177px 10px 177px;
+}
