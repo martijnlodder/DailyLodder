@@ -31,8 +31,20 @@
         </div>
         
         <section class="video">
-            <video class="video-background" src="vid/mainvid.mp4" autoplay muted loop style="width: auto; height: 100%;"></video>
+            <video class="video-background" src="vid/mainvid.mp4" autoplay muted loop style="width: 100%; height: auto;"></video>
         </section>
+        
+        <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
 
         <footer>
             <br>
